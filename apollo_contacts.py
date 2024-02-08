@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify
 import requests
-api_key="urLasOpQ9dxlUucvgcK_hw"
 app = Flask(__name__)
 
 @app.route("/webhook", methods=['POST'])
