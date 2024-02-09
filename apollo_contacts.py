@@ -3,7 +3,7 @@ import requests
 app = Flask(__name__)
 
 @app.route("/webhook", methods=['POST'])
-def app_():
+def web_hook():
     data = request.get_json()
     return data
 
