@@ -6,6 +6,3 @@ app = Flask(__name__)
 def web_hook():
     data = request.get_json()
     return data
-
-if __name__=="__main__":
-    app.run()
